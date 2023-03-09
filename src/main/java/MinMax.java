@@ -1,6 +1,5 @@
 public class MinMax {
-    public static void main (String args [])
-    {
+    public static void main (String args []) {
         int nums [] = new int[10];
         int min, max;
         nums[0] = 99;
@@ -21,7 +20,7 @@ public class MinMax {
              if (nums [i] > max) max = nums[i];
 
          }
-          System.out.println("min и max: " + min + " " + max);
+          System.out.println("min " + min + " max " + max);
 
 
 
